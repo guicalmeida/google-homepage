@@ -1,0 +1,84 @@
+:root {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #202124;
+    text-decoration: none;
+}
+
+p, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#barra-superior {
+    display: flex;
+    justify-content: flex-end;
+    height: 3vh;
+    margin-top: 2.7vh;
+    align-items: center;    
+}
+
+.sup {
+    margin-right: 1.5rem;
+}
+
+#perfil {
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+main {
+display: grid;
+justify-content: center;
+text-align: center;
+margin-top: 12.5vh;
+}
+
+.mid {
+    margin-top: 2.5rem;
+}
+
+#pesquisa {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid #cfcfcf;
+     color: #a0d18c;
+     width: 250px;
+     height: 30px;
+     padding-left: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+}
+
+#pais {
+    padding-left: 2rem;
+    line-height: 40px;
+    border: 1px solid #dadce0;
+}
+#ultimo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 40px;
+
+}
+.item {
+    padding: 0px 1rem;
+}
