@@ -36,22 +36,39 @@ a {
 }
 
 main {
-display: grid;
 justify-content: center;
 text-align: center;
 margin-top: 12.5vh;
 }
 
-.mid {
-    margin-top: 2.5rem;
+#logo {
+    margin: 2.5rem 0px;
+}
+
+#mic {
+    position: relative;  
+    width: 14.5px;
+    height: 20.6px;
+    z-index: 1;
+    top: 6px;
+    right: 35px;
 }
 
 #pesquisa {
- border-radius: 15px;
- border: 1px solid rgba(168, 168, 168, 0.54);
- height: 40px;
- width: 580px;
- }
+    grid-column: 1 3;
+    border-radius: 30px;
+    border: 1px solid rgba(168, 168, 168, 0.54);
+    height: 40px;
+    width: 36vw;
+    min-width: 350px;
+    background: url(https://www.flaticon.com/svg/static/icons/svg/54/54481.svg) no-repeat;
+    background-size: 15px 15px;
+    background-position: 2%;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+    color:rgba(0,0,0,.87);
+  }
 
  #pesquisa:hover {
     box-shadow: 0px 1px 2px 2px rgba(226, 225, 225, 0.719);
@@ -69,9 +86,10 @@ margin-top: 12.5vh;
     outline: none;
 }
 
+
 .botao {
 padding: 0.8rem 1.3rem;
-margin: 0px 5px;
+margin: 2.5rem 5px 0px 5px;
 background-color: rgb(248 249 250);
 border: 1px solid transparent;
 font-size: 14px;
@@ -89,29 +107,20 @@ border-radius: 4px;
     outline: none;
 }
 
-footer {
+#ultimo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     bottom: 0;
     background-color: rgb(242, 242, 242);
-    width: 100%;
+    width: 100vw;
+    height: 40px;
     font-size: 14px;
     color: rgba(0,0,0,.54);
     flex-wrap: wrap;
 }
 
-#pais {
-    padding-left: 2rem;
-    line-height: 40px;
-    border: 1px solid #dadce0;
-}
-#ultimo {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    line-height: 40px;
-
-}
 .item {
-    padding: 0px 1rem;
+    padding: 0px 10px;   
 }
